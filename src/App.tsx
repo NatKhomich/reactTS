@@ -28,6 +28,8 @@ function App() {
             <Rating value={3}/>
             <Rating value={4}/>
             <Rating value={5}/>
+            Test
+            <MyFamily />
         </div>
     );
 }
@@ -41,6 +43,20 @@ function PageTitle(props: PageTitlePropsType) {
     debugger
     console.log("PageTitle rendering")
     return <h1>{props.title}</h1>
+}
+
+//-------------------------------------------------------
+function MyFamily() {
+    return (
+        <div>
+            <h5>My family</h5>
+            <ul>
+                <li>Alex</li>
+                <li>Natali</li>
+                <li>Bonya</li>
+            </ul>
+        </div>
+    )
 }
 
 export default App;
