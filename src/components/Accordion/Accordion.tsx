@@ -10,13 +10,13 @@ type AccordionPropsType = {
          return (
              <div>
                  <AccordionTitle title={props.titleValue}/>
-                 <AccordionBody/>
              </div>
          )
      }
          return (
              <div>
                  <AccordionTitle title={props.titleValue}/>
+                 <AccordionBody/>
              </div>
          )
  }
